@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="add_task"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_shortcut"
+        android:shortcutShortLabel="@string/add_todo">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.pirumart.carnet"
+            android:targetClass="com.pirumart.carnet.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_shortcut"
+        android:shortcutShortLabel="@string/add_note">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.pirumart.carnet"
+            android:targetClass="com.pirumart.carnet.activities.AddToDoActivity" />
+    </shortcut>
+</shortcuts>
