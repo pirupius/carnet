@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#004D40</color>
     <color name="colorAccent">#00BCD4</color>
 
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#90A4AE</color>
+
     <color name="amber">#FFC107</color>
     <color name="red_primary">#D32F2F</color>
     <color name="red_secondary">#F44336</color>

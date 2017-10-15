@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.pirumart.carnet.utilities.Utils;
+
 public class ScrollingFABBehaviour extends CoordinatorLayout.Behavior<FloatingActionButton> {
     private int toolbarHeight;
     private static boolean scrolledUp = false;

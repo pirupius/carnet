@@ -41,24 +41,5 @@ public class TodoNotificationService extends IntentService {
                 .build();
 
         manager.notify(100, notification);
-//        Uri defaultRingone = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-//        MediaPlayer mp = new MediaPlayer();
-//        try{
-//            mp.setDataSource(this, defaultRingone);
-//            mp.setAudioStreamType(AudioManager.STREAM_NOTIFICATION);
-//            mp.prepare();
-//            mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-//                @Override
-//                public void onCompletion(MediaPlayer mp) {
-//                    mp.release();
-//                }
-//            });
-//            mp.start();
-//
-//        }
-//        catch (Exception e){
-//            e.printStackTrace();
-//        }
-
     }
 }

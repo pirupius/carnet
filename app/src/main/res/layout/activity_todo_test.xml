@@ -28,7 +28,7 @@
                 android:layout_height="0dp">
 
 
-                <com.pirumart.notebook.todo.CustomTextInputLayout
+                <com.pirumart.carnet.CustomTextInputLayout
                     app:hintTextAppearance="@style/FloatingLabelTextAppearance"
                     android:id="@+id/toDoCustomTextInput"
                     android:gravity="center"
@@ -48,7 +48,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                </com.pirumart.notebook.todo.CustomTextInputLayout>
+                </com.pirumart.carnet.CustomTextInputLayout>
 
             </LinearLayout>
             <LinearLayout
