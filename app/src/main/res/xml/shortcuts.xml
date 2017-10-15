@@ -3,7 +3,7 @@
     <shortcut
         android:shortcutId="add_task"
         android:enabled="true"
-        android:icon="@drawable/ic_home_shortcut"
+        android:icon="@drawable/ic_todo_shortcut"
         android:shortcutShortLabel="@string/add_todo">
         <intent
             android:action="android.intent.action.VIEW"
@@ -13,7 +13,7 @@
     <shortcut
         android:shortcutId="profile"
         android:enabled="true"
-        android:icon="@drawable/ic_person_shortcut"
+        android:icon="@drawable/ic_create_shortcut"
         android:shortcutShortLabel="@string/add_note">
         <intent
             android:action="android.intent.action.VIEW"
