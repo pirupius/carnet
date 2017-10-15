@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "54888110115",
+    "firebase_url": "https://carnet-56a4f.firebaseio.com",
+    "project_id": "carnet-56a4f",
+    "storage_bucket": "carnet-56a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54888110115:android:f95b2a26dc65776c",
+        "android_client_info": {
+          "package_name": "com.pirumart.carnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54888110115-4krb77sgtf8ff1g82uts22crc4p2sv5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pirumart.carnet",
+            "certificate_hash": "425b8f366489046d0f6e7cb8d800079f8fcecb06"
+          }
+        },
+        {
+          "client_id": "54888110115-2m5imsel0cl1l675bjjluv4rqifp0h11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzD3msN8fHlJeRvidtZU6S-VKDrkLQ2A4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54888110115-2m5imsel0cl1l675bjjluv4rqifp0h11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
