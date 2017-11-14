@@ -239,15 +239,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-//            Intent intent = new Intent(this, com.pirumart.carnet.activities.SettingsActivity2.class);
-            Intent intent = new Intent(this, SettingsActivity2.class);
+            Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);
-            return true;
-        }
-
-        if (id == R.id.action_about) {
-            Intent i = new Intent(this, AboutActivity.class);
-            startActivity(i);
             return true;
         }
 

@@ -11,7 +11,6 @@
     <string name="example" translatable="false">Clean my room</string>
 
 
-
     <string name="default_gallery_storage">My Videos</string>
     <string name="title_auto_upload">Auto upload</string>
     <string name="summary_upload_over_wifi">Upload the videos when wifi is available</string>
@@ -25,11 +24,11 @@
     <string name="title_send_feedback">Send Feedback</string>
     <string name="title_faq">FAQ</string>
     <string name="summary_faq">View frequently asked questions</string>
-    <string name="url_faq">https://www.androidhive.info/privacy-policy/</string>
+    <string name="url_faq">https://www.pirumart.com/privacy-policy/</string>
     <string name="privacy_policy">Privacy Policy</string>
-    <string name="url_privacy">https://www.androidhive.info/privacy-policy/</string>
+    <string name="url_privacy">https://www.pirumart.com/privacy-policy/</string>
     <string name="title_terms">Terms &amp; Conditions</string>
-    <string name="url_terms">https://www.androidhive.info/terms-of-service/</string>
+    <string name="url_terms">https://www.pirumart.com/terms-of-service/</string>
     <string name="title_version">Version</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="title_gallery_storage">Default Storage</string>

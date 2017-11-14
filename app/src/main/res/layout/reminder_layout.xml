@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_below="@id/toolbar"
-        android:background="@color/primary"
+        android:background="@color/colorPrimary"
         android:ellipsize="middle"
         android:gravity="center|start"
         android:paddingLeft="16dp"

@@ -13,7 +13,7 @@
     <shortcut
         android:shortcutId="profile"
         android:enabled="true"
-        android:icon="@drawable/ic_create_shortcut"
+        android:icon="@drawable/ic_add"
         android:shortcutShortLabel="@string/add_note">
         <intent
             android:action="android.intent.action.VIEW"
