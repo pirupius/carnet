@@ -116,7 +116,7 @@ public class AddToDoActivity extends AppCompatActivity implements
         reminderIconImageButton = (ImageButton)findViewById(R.id.userToDoReminderIconImageButton);
         reminderRemindMeTextView = (TextView)findViewById(R.id.userToDoRemindMeTextView);
         if(theme.equals(MainActivity.DARKTHEME)){
-            reminderIconImageButton.setImageDrawable(getResources().getDrawable(R.drawable.ic_alarm_add_white_24dp));
+            reminderIconImageButton.setImageDrawable(getResources().getDrawable(R.drawable.ic_add_alarm));
             reminderRemindMeTextView.setTextColor(Color.WHITE);
         }
 

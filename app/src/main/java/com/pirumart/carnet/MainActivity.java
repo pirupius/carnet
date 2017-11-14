@@ -14,7 +14,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -22,10 +21,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
-import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -33,7 +30,6 @@ import android.widget.TextView;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.pirumart.carnet.activities.*;
 
 import org.json.JSONException;
 
@@ -243,8 +239,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-//            Intent intent = new Intent(this, com.pirumart.carnet.activities.SettingsActivity.class);
-            Intent intent = new Intent(this, SettingsActivity.class);
+//            Intent intent = new Intent(this, com.pirumart.carnet.activities.SettingsActivity2.class);
+            Intent intent = new Intent(this, SettingsActivity2.class);
             startActivity(intent);
             return true;
         }

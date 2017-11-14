@@ -52,7 +52,7 @@
             />
         <service android:name="com.pirumart.carnet.DeleteNotificationService"
             />
-        <activity android:name="com.pirumart.carnet.SettingsActivity"
+        <activity android:name="com.pirumart.carnet.SettingsActivity2"
             android:parentActivityName="com.pirumart.carnet.MainActivity"
 
             />

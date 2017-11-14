@@ -73,7 +73,7 @@
                         android:background="@android:color/transparent"
                         android:id="@+id/userToDoReminderIconImageButton"
                         android:padding="8dp"
-                        android:src="@drawable/ic_add_alarm_grey_200_24dp"
+                        android:srcCompat="@drawable/ic_add_alarm"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content" />
 

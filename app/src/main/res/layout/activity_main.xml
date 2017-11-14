@@ -76,7 +76,7 @@
             app:elevation="6dp"
             app:backgroundTint="@color/colorFAB1"
             app:pressedTranslationZ="12dp"
-            app:srcCompat="@drawable/ic_to_do" />
+            app:srcCompat="@drawable/ic_pencil" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab"
